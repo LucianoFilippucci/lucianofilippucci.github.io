@@ -49,14 +49,9 @@
 
         </script>
         <style>
-            hr {
-                display: block;
-                margin-top: 0.5em;
-                margin-bottom: 0.5em;
-                margin-left: auto;
-                margin-right: auto;
-                border-style: inset;
-                border-width: 1px;
+            .boxed-text{
+                border: 3px solid black;
+                padding: 5px;
             }
         </style>
     </head>
@@ -85,7 +80,7 @@
                                 <a class="navbar-item">
                                     Projects
                                 </a>
-                                <a class="navbar-item">
+                                <a class="navbar-item" href="#Skills">
                                     Skills
                                 </a>
                                 <span class="navbar-item">
@@ -102,21 +97,87 @@
                 </div>
             </div>
 
-            <div class="hero-body bd-main-container container">
-                <div class="hero-body bd-main-container container">
+            <div class="hero-body">
+                <div class="container has-text-centered">
                     <div class="tile is-ancestor">
                         <div class="tile is-parent">
                             <div class="tile is-child box">
-                                <div class="container">
-                                    <figure class="image is-128x128">
-                                        <img class="is-rounded" src="assets/images/me.png">
-                                    </figure>
+                                <div class="columns">
+                                    <div class="column is-one-fifth">
+                                        <figure class="image is-128x128">
+                                            <img class="is-rounded" src="assets/images/me.png">
+                                        </figure>
+                                    </div>
+                                    <div class="column">
+                                        <p class="has-text-justified">
+                                            Hello, I'm Luciano Filippucci; I'm a backend and game developer located in Italy. I've been in the programmer world since I was 11 years old.
+                                            I recently obtained my high school diploma in ICT and I'm currently a computer engineering student at the <a href="www.unical.it">University of Calabria</a>.
+                                            Here you can see some of my projects i've had the opportunity of contribuing to, and some of personal-fun and academic works. I've been extremely curious of game mechanics and
+                                            technical side, and sometimes this curiosity has led me to reproduce it.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <!-- Here start everything -->
+                    <div class="tile is-ancestor">
+                        <div class="tile is-parent">
+                            <div class="tile is-child box">
+                                <h1 class="has-text-centered title">
+                                    <span id="Skills" class="boxed-text">Skills</span>
+                                    <hr  align="center" width="50%">
+                                </h1>
+                                <div class="columns">
+                                    <div class="column">
+                                        <h1 class="title">Back-end</h1>
 
-
+                                        <ul>
+                                            <li>Python</li>
+                                            <li>Java</li>
+                                            <li>PHP</li>
+                                            <li>Django</li>
+                                        </ul>
+                                    </div>
+                                    <div class="is-divider-vertical" ></div>
+                                    <div class="column">
+                                        <h1 class="title">Front-end</h1>
+                                        <ul>
+                                            <li>Symfony Framework</li>
+                                            <li>ReactJS</li>
+                                            <li>Composer</li>
+                                            <li>HTML5</li>
+                                            <li>CSS3</li>
+                                            <li>JavaScript</li>
+                                            <li>SCSS</li>
+                                        </ul>
+                                    </div>
+                                    <div class="is-divider-vertical" ></div>
+                                    <div class="column">
+                                        <h1 class="title">Skills</h1>
+                                        <ul>
+                                            <li>AI System's design patterns</li>
+                                            <li>A* pathfinding</li>
+                                            <li>basic machine learning</li>
+                                            <li>Ability on analyzing and extending existing code</li>
+                                            <li>Agile environment</li>
+                                            <li>Continuous Integration</li>
+                                            <li>Continuous Deployment</li>
+                                            <li>Continuous Building</li>
+                                        </ul>
+                                    </div>
+                                    <div class="is-divider-vertical" ></div>
+                                    <div class="column">
+                                        <h1 class="title">Human Languages</h1>
+                                        <ul>
+                                            <li>Italian</li>
+                                            <li>English</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
